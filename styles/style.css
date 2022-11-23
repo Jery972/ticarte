@@ -58,6 +58,7 @@ header {
 
 .logoHeader {
   width: 40%;
+  max-width: 30rem;
   border-radius: 50%;
 }
 
@@ -69,28 +70,37 @@ header {
   font-weight: 400;
 }
 
-.divButton {
-  display: flex;
-  background: #4a4e69;
-  width: 80%;
-  align-items: center;
-  justify-content: center;
-  padding: 1.4rem 0;
-  border-radius: 1rem;
-  box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.8);
-  gap: 2rem;
-}
-
-.imgContact {
-  height: 4rem;
-  -o-object-position: 0 2px;
-     object-position: 0 2px;
-}
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.divButton {
+  display: flex;
+  justify-content: center;
+  background: #4a4e69;
+  width: 80%;
+  max-width: 60rem;
+  padding: 1.4rem 0;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.8);
+  margin-bottom: 2rem;
+}
+
+.divTextButton {
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  gap: 2rem;
+}
+.divTextButton img {
+  height: 4rem;
+}
+
+.imgContact {
+  -o-object-position: 0 2px;
+     object-position: 0 2px;
 }
 
 @media screen and (max-width: 750px) {
