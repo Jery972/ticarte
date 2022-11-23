@@ -12,6 +12,9 @@ body {
   font-family: "Calibri";
   background: #22223b;
   color: #f2e9e4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -43,6 +46,7 @@ a,
 span,
 p {
   font-size: 1.8rem;
+  color: #f2e9e4;
 }
 
 a {
@@ -74,6 +78,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-grow: 1;
 }
 
 .divButton {
@@ -101,6 +106,11 @@ main {
 .imgContact {
   -o-object-position: 0 2px;
      object-position: 0 2px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
 }
 
 @media screen and (max-width: 750px) {
