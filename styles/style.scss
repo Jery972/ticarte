@@ -1,0 +1,41 @@
+$header1: 3.5rem;
+$header2: 3rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$main-text: 1.8rem;
+$second-text: 1.5rem;
+$color-text: #f2e9e4;
+$main-color: #22223b;
+$second-color: #4a4e69;
+// $third-color: #f5cb5c;
+// $fourth-color: #e8eddf;
+
+@import "global";
+@import "header";
+@import "main";
+@import "footer";
+
+@media screen and (max-width: 750px) {
+  li,
+  button,
+  label,
+  input,
+  a,
+  span,
+  p {
+    font-size: calc($main-text - 0.2rem);
+  }
+  h1 {
+    font-size: calc($header1 - 0.2rem);
+  }
+  h2 {
+    font-size: calc($header2 - 0.2rem);
+  }
+  h3 {
+    font-size: calc($header3 - 0.2rem);
+  }
+  h4,
+  h5 {
+    font-size: calc($header4 - 0.2rem);
+  }
+}

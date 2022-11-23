@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Calibri";
+  background: #22223b;
+  color: #f2e9e4;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li,
+button,
+label,
+input,
+a,
+span,
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoHeader {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.divName {
+  margin-top: 1rem;
+  text-align: center;
+}
+.divName h4 {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 750px) {
+  li,
+button,
+label,
+input,
+a,
+span,
+p {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 3.3rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+  h4,
+h5 {
+    font-size: 1.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */
