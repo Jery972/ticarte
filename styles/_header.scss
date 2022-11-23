@@ -1,9 +1,8 @@
 header {
-  padding-top: 3rem;
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // background: red;
 }
 .logoHeader {
   width: 40%;
@@ -15,4 +14,20 @@ header {
   h4 {
     font-weight: 400;
   }
+}
+.divButton {
+  display: flex;
+  background: $second-color;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem 0;
+  border-radius: 1rem;
+  -webkit-box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.8);
+  gap: 2rem;
+}
+.imgContact {
+  height: 4rem;
+  object-position: 0 2px;
 }
