@@ -7,11 +7,15 @@ header {
 .logoHeader {
   width: 40%;
   max-width: 30rem;
+  max-height: 30rem;
+  object-fit: contain;
   // border-radius: 50%;
 }
 .divName {
   margin-top: 1rem;
   text-align: center;
+  color: $color-globalText;
+
   h4 {
     font-weight: 400;
   }

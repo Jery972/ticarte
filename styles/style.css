@@ -63,11 +63,15 @@ header {
 .logoHeader {
   width: 40%;
   max-width: 30rem;
+  max-height: 30rem;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .divName {
   margin-top: 1rem;
   text-align: center;
+  color: black;
 }
 .divName h4 {
   font-weight: 400;
@@ -114,4 +118,5 @@ footer {
 }
 footer p {
   font-size: 1.5rem;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
