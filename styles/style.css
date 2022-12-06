@@ -112,6 +112,12 @@ main {
      object-position: 0 2px;
 }
 
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
 footer {
   text-align: center;
   padding: 1rem 0;

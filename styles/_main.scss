@@ -29,3 +29,8 @@ main {
 .imgContact {
   object-position: 0 2px;
 }
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
