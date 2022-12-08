@@ -49,3 +49,13 @@ a {
   //   color: $third-color;
   // }
 }
+#particles-js {
+  height: 100vh;
+}
+#content {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}

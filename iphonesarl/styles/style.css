@@ -53,6 +53,18 @@ a {
   text-decoration: none;
 }
 
+#particles-js {
+  height: 100vh;
+}
+
+#content {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
 header {
   padding: 3rem 0;
   display: flex;
