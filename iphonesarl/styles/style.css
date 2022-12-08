@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: gray;
+  background: black;
   color: #f2e9e4;
   min-height: 100vh;
   display: flex;
@@ -83,7 +83,7 @@ header {
 .divName {
   margin-top: 1rem;
   text-align: center;
-  color: black;
+  color: #f2e9e4;
 }
 .divName h4 {
   font-weight: 400;
@@ -100,7 +100,7 @@ main {
 .divButton {
   display: flex;
   justify-content: center;
-  background: black;
+  background: #1b2a54;
   width: 80%;
   max-width: 60rem;
   padding: 1.4rem 0;
@@ -130,5 +130,5 @@ footer {
 }
 footer p {
   font-size: 1.5rem;
-  color: black;
+  color: #f2e9e4;
 }/*# sourceMappingURL=style.css.map */
