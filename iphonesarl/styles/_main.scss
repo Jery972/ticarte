@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+.divButton {
+  display: flex;
+  justify-content: center;
+  background: $second-color;
+  width: 80%;
+  max-width: 60rem;
+  padding: 1.4rem 0;
+  border-radius: 1rem;
+  -webkit-box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.8);
+  margin-bottom: 2rem;
+}
+.divTextButton {
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  gap: 2rem;
+  img {
+    height: 4rem;
+  }
+}
+.imgContact {
+  object-position: 0 2px;
+}

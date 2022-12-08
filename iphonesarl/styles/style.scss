@@ -1,0 +1,18 @@
+$header1: 3rem;
+$header2: 2.5rem;
+$header3: 2rem;
+$header4: 1.8rem;
+$main-text: 1.6rem;
+$second-text: 1.5rem;
+$color-text: #f2e9e4;
+// $main-color: #22223b;
+$color-globalText: black;
+$main-color: #fff;
+
+// $second-color: #4a4e69;
+$second-color: black;
+
+@import "global";
+@import "header";
+@import "main";
+@import "footer";
