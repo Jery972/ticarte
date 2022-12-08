@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #fff;
+  background: gray;
   color: #f2e9e4;
   min-height: 100vh;
   display: flex;
@@ -110,13 +110,6 @@ main {
 .imgContact {
   -o-object-position: 0 2px;
      object-position: 0 2px;
-}
-
-.ball {
-  position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
-  z-index: -1;
 }
 
 footer {
