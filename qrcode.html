@@ -10,7 +10,13 @@
     />
     <meta name="robots" content="none" />
     <link rel="icon" type="image/png" href="images/icons/favIcon.png" />
-    <title>TiCarte - Carte de visite en ligne</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>TiCarte - Génération QRCODE</title>
     <style type="text/css">
       body {
         display: flex;
@@ -18,19 +24,40 @@
         flex-direction: column;
         text-align: center;
       }
+      #div-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
     </style>
   </head>
   <body>
     <main>
-      <img
-        src="images/construction.jpg"
-        alt="image de site en construction"
-        style="width: 100%"
-      />
-      <h1>En Construction</h1>
+      <h1>Génération QRCODE</h1>
+      <p>Lien à générer :</p>
+      <div id="div-input">
+        <input id="link-qrcode" type="text" />
+        <button id="btn-qrcode">Générer</button>
+        <div id="QR-GENERATE"></div>
+      </div>
     </main>
     <footer>
       <p>© 2022 TiCarte | Tous droits réservés.</p>
     </footer>
+    <script>
+      document
+        .getElementById("btn-qrcode")
+        .addEventListener("click", function () {
+          const userInput = document.getElementById("link-qrcode").value;
+          if (!userInput) {
+            return alert("Veuillez indiquer un lien à générer");
+          }
+          const QRGENERATE = document.getElementById("QR-GENERATE");
+          QRGENERATE.innerHTML = "";
+          new QRCode(QRGENERATE, userInput);
+        });
+    </script>
   </body>
 </html>
